@@ -1,7 +1,7 @@
 <script>
 	import SparklingHighlight from '$lib/components/molecules/SparklingHighlight.svelte';
 	import Socials from '$lib/components/molecules/Socials.svelte';
-	import Image from '../atoms/Image.svelte';
+	// import Image from '../atoms/Image.svelte';
 </script>
 
 <section id="about">
@@ -16,10 +16,10 @@
 		</div>
 	</div>
 	<div class="image">
-		<Image src="https://img1.imgtp.com/2023/09/08/8SDiXrb6.png" alt="logo" />
+		<img src="/images/qrcode.webp" alt="logo" />
 		<p />
 		⁣⁣⁣⁣　⁣⁣⁣⁣　⁣⁣⁣
-		<Image src="https://img1.imgtp.com/2023/09/08/sYifnQ2z.png" alt="logo" />
+		<img src="/images/sample-image.webp" alt="logo" />
 	</div>
 	<p />
 	<!-- <h2>复旦大学电子竞技联盟微信公众号</h2> -->
