@@ -12,7 +12,7 @@
 	<div class="content">
 		<div class="copyright">
 			版权所有：复旦电子竞技联盟 <a
-				href="https://fantinel.dev?utm_source=site-template"
+				href="https://ys.fudan.site/"
 				target="_blank"
 				rel="noopener noreferrer">Designed by 秋声.</a
 			>.

@@ -54,6 +54,10 @@
 			font-family: sans-serif;
 			font-kerning: auto;
 			justify-content: space-between;
+			@include for-phone-only {
+				font-weight: 200;
+				font-size: 2rem;
+			}
 		}
 
 		.intro {
@@ -71,7 +75,10 @@
 			}
 
 			@include for-phone-only {
-				display: none;
+				font-size: 1.2rem;
+				justify-content: center;
+				flex-direction: column;
+				// display: none;
 			}
 		}
 

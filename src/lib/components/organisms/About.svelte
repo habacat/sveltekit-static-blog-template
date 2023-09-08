@@ -42,6 +42,7 @@
 			grid-template-columns: 1fr;
 			justify-items: center;
 			gap: 20px;
+			font-size: 0.8rem;
 		}
 
 		.info {
@@ -58,12 +59,15 @@
 					font-family: sans-serif;
 					display: flex;
 					flex-direction: column;
+					font-size: 1.2rem;
 				}
 			}
 
 			p {
 				@include for-phone-only {
 					text-align: justify;
+					text-align: center;
+					font-size: 1rem;
 				}
 			}
 
@@ -92,6 +96,16 @@
 			display: flex;
 			justify-content: center; /* 居中对齐图片 */
 			margin: auto;
+			@include for-phone-only {
+				justify-content: center;
+				margin-bottom: 100px;
+				margin-top: 120px;
+				// margin-left: 10px;
+				// margin-right: 10px;
+				margin-inline-end: auto;
+				// display: none;
+				flex-direction: column;
+			}
 		}
 	}
 </style>
