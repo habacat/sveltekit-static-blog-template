@@ -1,4 +1,5 @@
 <script>
+	import SparklingHighlight from '$lib/components/molecules/SparklingHighlight.svelte';
 	import FeaturesIcon from '$lib/icons/features.svelte';
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
@@ -6,12 +7,14 @@
 </script>
 
 <section id="hero">
-	<h1 class="hello">This is a SvelteKit Static Blog Template!</h1>
+	<h1 class="hello">
+		<SparklingHighlight color="primary">复旦大学 电子竞技联盟</SparklingHighlight>
+	</h1>
 	<p class="intro">
-		<span class="left">It supports Markdown,</span>
-		<span class="right">and is really fast.</span>
+		<span class="left">带上你的热情，</span>
+		<span class="right">和我们一起踏上电竞之旅！</span>
 	</p>
-	<div class="ctas">
+	<!-- <div class="ctas">
 		<Sparkles>
 			<Button href="https://github.com/matfantinel/sveltekit-static-blog-template">
 				<GitHubIcon slot="icon" />
@@ -22,7 +25,7 @@
 			<FeaturesIcon slot="icon" />
 			Components
 		</Button>
-	</div>
+	</div> -->
 </section>
 
 <style lang="scss">
@@ -43,6 +46,14 @@
 
 		.hello {
 			text-align: center;
+			font-weight: 500;
+			font-size: 3.5rem;
+			// width: min(100%, 2200px);
+			display: flex;
+			flex-direction: column;
+			font-family: sans-serif;
+			font-kerning: auto;
+			justify-content: space-between;
 		}
 
 		.intro {
@@ -51,7 +62,7 @@
 			width: min(100%, 440px);
 			display: flex;
 			flex-direction: column;
-
+			font-style: oblique;
 			.left {
 				text-align: left;
 			}

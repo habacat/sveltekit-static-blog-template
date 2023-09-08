@@ -11,22 +11,21 @@
 	</div>
 	<div class="content">
 		<div class="copyright">
-			This template was built by <a
+			版权所有：复旦电子竞技联盟 <a
 				href="https://fantinel.dev?utm_source=site-template"
 				target="_blank"
-				rel="noopener noreferrer">Matheus Fantinel</a
+				rel="noopener noreferrer">Designed by 秋声.</a
 			>.
 		</div>
 		<div class="credits">
-			Powered by <a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer"
-				>SvelteKit</a
-			>. Icons by
-			<a href="https://iconoir.com/" target="_blank" rel="noopener noreferrer">Iconoir</a>.
+			<p>凿破苍苔地，偷他一片天</p>
+			<p>白云生镜里，明月落阶前</p>
 		</div>
+		<!-- <div class="credits">白云生镜里，明月落阶前。</div> -->
 		<div class="socials">
-			<Socials />
+			<!-- <Socials />
 			<RssLink />
-			<ThemeToggle />
+			<ThemeToggle /> -->
 		</div>
 	</div>
 </footer>

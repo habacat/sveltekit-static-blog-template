@@ -6,25 +6,23 @@
 
 <section id="about">
 	<div class="info">
-		<h2>
-			This is a catchy headline that
-			<SparklingHighlight color="secondary">sparkles!</SparklingHighlight>
-		</h2>
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
-		</p>
+		<h2>欢迎关注 复旦电子竞技联盟</h2>
+		<p><SparklingHighlight color="secondary">感谢每一个热爱电竞的你！</SparklingHighlight></p>
+		<p>使用微信扫码二维码加入电竞社核心社群，校内的游戏群聊都在里面哦~</p>
+		<p />
 		<div class="socials">
-			<span>Socials:</span>
-			<Socials />
+			<!-- <span>Socials:</span> -->
+			<!-- <Socials /> -->
 		</div>
 	</div>
 	<div class="image">
-		<Image
-			src="/images/sample-image.png"
-			alt="Sample for the static template"
-		/>
+		<Image src="/images/qrcode.png" alt="logo" />
+		<p />
+		⁣⁣⁣⁣　⁣⁣⁣⁣　⁣⁣⁣
+		<Image src="/images/sample-image.png" alt="logo" />
 	</div>
+	<p />
+	<!-- <h2>复旦大学电子竞技联盟微信公众号</h2> -->
 </section>
 
 <style lang="scss">
@@ -32,11 +30,13 @@
 
 	#about {
 		position: relative;
-		display: grid;
 		grid-template-columns: 500px 250px;
 		align-items: center;
 		justify-content: space-between;
 		padding-bottom: 50px;
+		font-family: sans-serif;
+		display: flex;
+		flex-direction: column;
 
 		@include for-phone-only {
 			grid-template-columns: 1fr;
@@ -46,11 +46,18 @@
 
 		.info {
 			display: flex;
-			flex-direction: column;
+			// flex-direction: column;
 			gap: 10px;
+			font-family: Microsoft YaHei;
+			display: flex;
+			text-align: center;
+			flex-direction: column;
 			h2 {
 				@include for-phone-only {
 					text-align: center;
+					font-family: sans-serif;
+					display: flex;
+					flex-direction: column;
 				}
 			}
 
@@ -80,8 +87,11 @@
 		}
 
 		.image {
-			width: 220px;
-			height: 220px;
+			width: 300px;
+			height: 300px;
+			display: flex;
+			justify-content: center; /* 居中对齐图片 */
+			margin: auto;
 		}
 	}
 </style>
