@@ -24,6 +24,37 @@
 	<p />
 	<!-- <h2>复旦大学电子竞技联盟微信公众号</h2> -->
 </section>
+<br />
+<section id="about">
+	<h2>电竞社下属QQ群组</h2>
+	<br />
+	<div class="image2">
+		<img src="/images/group_webp/lol总群.webp" alt="logo" />
+		<p />
+		⁣⁣⁣⁣　⁣⁣⁣⁣　⁣⁣⁣
+		<img src="/images/group_webp/fdu和平精英.webp" alt="logo" />
+		<p />
+		⁣⁣⁣⁣　⁣⁣⁣⁣　⁣⁣⁣
+		<img src="/images/group_webp/fdu金铲铲.webp" alt="logo" />
+		<p />
+		⁣⁣⁣⁣　⁣⁣⁣⁣　⁣⁣⁣
+		<img src="/images/group_webp/复旦王者荣耀.webp" alt="logo" />
+	</div>
+	<br />
+	<br />
+	<div class="image2">
+		<img src="/images/group_webp/fdu无畏契约.webp" alt="logo" />
+		<p />
+		⁣⁣⁣⁣　⁣⁣⁣⁣　⁣⁣⁣
+		<img src="/images/group_webp/哈利波特魔法觉醒.webp" alt="logo" />
+		<p />
+		⁣⁣⁣⁣　⁣⁣⁣⁣　⁣⁣⁣
+		<img src="/images/group_webp/cs2游戏群.webp" alt="logo" />
+		<p />
+		⁣⁣⁣⁣　⁣⁣⁣⁣　⁣⁣⁣
+		<img src="/images/group_webp/复旦大学第五人格.webp" alt="logo" />
+	</div>
+</section>
 
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
@@ -38,12 +69,12 @@
 		display: flex;
 		flex-direction: column;
 
-		@include for-phone-only {
-			grid-template-columns: 1fr;
-			justify-items: center;
-			gap: 20px;
-			font-size: 0.8rem;
-		}
+		// @include for-phone-only {
+		// 	grid-template-columns: 1fr;
+		// 	justify-items: center;
+		// 	gap: 20px;
+		// 	font-size: 0.8rem;
+		// }
 
 		.info {
 			display: flex;
@@ -100,6 +131,26 @@
 				justify-content: center;
 				margin-bottom: 100px;
 				margin-top: 120px;
+				// margin-left: 10px;
+				// margin-right: 10px;
+				margin-inline-end: auto;
+				// display: none;
+				flex-direction: column;
+			}
+		}
+		.image2 {
+			width: 300px;
+			height: 520px;
+			display: flex;
+			justify-content: center; /* 居中对齐图片 */
+			margin: auto;
+			@include for-phone-only {
+				width: auto;
+				height: auto;
+				margin: auto;
+				// justify-content: center;
+				margin-bottom: auto;
+				margin-top: auto;
 				// margin-left: 10px;
 				// margin-right: 10px;
 				margin-inline-end: auto;
