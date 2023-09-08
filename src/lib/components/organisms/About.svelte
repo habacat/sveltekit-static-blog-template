@@ -16,10 +16,10 @@
 		</div>
 	</div>
 	<div class="image">
-		<Image src="/images/qrcode.webp" alt="logo" />
+		<Image src="https://img1.imgtp.com/2023/09/08/8SDiXrb6.png" alt="logo" />
 		<p />
 		⁣⁣⁣⁣　⁣⁣⁣⁣　⁣⁣⁣
-		<Image src="/images/sample-image.webp" alt="logo" />
+		<Image src="https://img1.imgtp.com/2023/09/08/sYifnQ2z.png" alt="logo" />
 	</div>
 	<p />
 	<!-- <h2>复旦大学电子竞技联盟微信公众号</h2> -->
