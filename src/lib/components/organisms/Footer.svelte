@@ -31,6 +31,7 @@
 </footer>
 
 <style lang="scss">
+	@import '$lib/scss/breakpoints.scss';
 	footer {
 		height: 340px;
 		width: 100%;
@@ -47,6 +48,16 @@
 			font-weight: 600;
 			text-align: center;
 
+			.copyright {
+				align-items: center;
+				@include for-phone-only {
+					justify-content: center;
+					margin-bottom: 10px;
+					font-size: 0.6rem;
+					font-weight: 40;
+					font-style: italic;
+				}
+			}
 			.credits {
 				font-weight: 400;
 				font-size: 90%;
