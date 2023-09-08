@@ -11,8 +11,8 @@
 		<SparklingHighlight color="primary">复旦大学 电子竞技联盟</SparklingHighlight>
 	</h1>
 	<p class="intro">
-		<span class="left">带上你的热情，</span>
-		<span class="right">和我们一起踏上电竞之旅！</span>
+		<span class="left"> 带上你的热情，</span>
+		<span class="right">和我们一起踏上电竞之旅！ </span>
 	</p>
 	<!-- <div class="ctas">
 		<Sparkles>
@@ -62,7 +62,7 @@
 
 		.intro {
 			font-weight: 500;
-			font-size: 1.4rem;
+			font-size: 1.2rem;
 			width: min(100%, 440px);
 			display: flex;
 			flex-direction: column;
@@ -78,6 +78,8 @@
 				font-size: 1.2rem;
 				justify-content: center;
 				flex-direction: column;
+				margin-left: 10%;
+				margin-right: 10%;
 				// display: none;
 			}
 		}

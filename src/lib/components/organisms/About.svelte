@@ -59,7 +59,7 @@
 					font-family: sans-serif;
 					display: flex;
 					flex-direction: column;
-					font-size: 1.2rem;
+					font-size: 1.5rem;
 				}
 			}
 
