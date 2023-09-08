@@ -16,10 +16,10 @@
 		</div>
 	</div>
 	<div class="image">
-		<Image src="/images/qrcode.png" alt="logo" />
+		<Image src="/qrcode.png" alt="logo" />
 		<p />
 		⁣⁣⁣⁣　⁣⁣⁣⁣　⁣⁣⁣
-		<Image src="/images/sample-image.png" alt="logo" />
+		<Image src="/sample-image.png" alt="logo" />
 	</div>
 	<p />
 	<!-- <h2>复旦大学电子竞技联盟微信公众号</h2> -->
