@@ -15,26 +15,26 @@
 		<h2><SparklingHighlight color="secondary">点击下方链接快速定位</SparklingHighlight></h2>
 		<br />
 		<p>
-			<SparklingHighlight color="primary"><a href="qrcode">复旦电子竞技联盟AFE官方公众号</a></SparklingHighlight>
+			<SparklingHighlight color="primary"><a href="#qrcode">复旦电子竞技联盟AFE官方公众号</a></SparklingHighlight>
 		</p>
 		<p>
-			<SparklingHighlight color="primary"><a href="newcomers">2023电竞社核心部门招新</a></SparklingHighlight>
+			<SparklingHighlight color="primary"><a href="#newcomers">2023电竞社核心部门招新</a></SparklingHighlight>
 		</p>
 		<br />
 		<h3><SparklingHighlight color="secondary">电竞社下属群组：</SparklingHighlight></h3>
 		<p>
-			<SparklingHighlight color="primary"><a href="lol">电竞社LOL总群</a></SparklingHighlight></p>
-			<p><SparklingHighlight color="primary"><a href="hpjy">和平精英&PUBG ers官群</a></SparklingHighlight></p>
-			<p><SparklingHighlight color="primary"><a href="jcc">金铲铲之战&云顶之弈</a></SparklingHighlight></p>
-			<p><SparklingHighlight color="primary"><a href="wzry">复旦王者荣耀冲冲冲</a></SparklingHighlight></p>
-			<p><SparklingHighlight color="primary"><a href="wwqy">无畏契约（VALORANT）</a></SparklingHighlight></p>
-			<p><SparklingHighlight color="primary"><a href="NO5">第五人格协会</a></SparklingHighlight></p>
-			<p><SparklingHighlight color="primary"><a href="apex">APEX总群</a></SparklingHighlight></p>
-			<p><SparklingHighlight color="primary"><a href="hp">哈利波特：魔法觉醒（微信群）</a></SparklingHighlight></p>
-			<p><SparklingHighlight color="primary"><a href="cs2">Counter-Strike 2（微信群）</a></SparklingHighlight></p>
-			<p><SparklingHighlight color="primary"><a href="dota">DOTA2（微信群）</a></SparklingHighlight></p>
-			<p><SparklingHighlight color="primary"><a href="xjzb">星际争霸--复星社的指挥官们</a></SparklingHighlight></p>
-			<p><SparklingHighlight color="primary"><a href="dzpd">蛋仔派对</a></SparklingHighlight></p>
+			<SparklingHighlight color="primary"><a href="#lol">电竞社LOL总群</a></SparklingHighlight></p>
+			<p><SparklingHighlight color="primary"><a href="#hpjy">和平精英&PUBG ers官群</a></SparklingHighlight></p>
+			<p><SparklingHighlight color="primary"><a href="#jcc">金铲铲之战&云顶之弈</a></SparklingHighlight></p>
+			<p><SparklingHighlight color="primary"><a href="#wzry">复旦王者荣耀冲冲冲</a></SparklingHighlight></p>
+			<p><SparklingHighlight color="primary"><a href="#wwqy">无畏契约（VALORANT）</a></SparklingHighlight></p>
+			<p><SparklingHighlight color="primary"><a href="#NO5">第五人格协会</a></SparklingHighlight></p>
+			<p><SparklingHighlight color="primary"><a href="#apex">APEX总群</a></SparklingHighlight></p>
+			<p><SparklingHighlight color="primary"><a href="#hp">哈利波特：魔法觉醒（微信群）</a></SparklingHighlight></p>
+			<p><SparklingHighlight color="primary"><a href="#cs2">Counter-Strike 2（微信群）</a></SparklingHighlight></p>
+			<p><SparklingHighlight color="primary"><a href="#dota">DOTA2（微信群）</a></SparklingHighlight></p>
+			<p><SparklingHighlight color="primary"><a href="#xjzb">星际争霸--复星社的指挥官们</a></SparklingHighlight></p>
+			<p><SparklingHighlight color="primary"><a href="#dzpd">蛋仔派对</a></SparklingHighlight></p>
 	</div>
 	<div class="info">
 		<p>欢迎扫描二维码加入电竞社核心社群，同时也欢迎加入下列各群，校内的游戏群聊都在里面哦~</p>
@@ -45,10 +45,10 @@
 		<!-- </div> -->
 	</div>
 	<div class="image">
-		<name class="qrcode"></name><img src="/images/qrcode.webp" alt="logo" />
+		<div id="qrcode"></div><img src="/images/qrcode.webp" alt="logo" />
 		<p />
 		⁣⁣⁣⁣　⁣⁣⁣⁣　⁣⁣⁣
-		<name class="newcomers"></name><img src="/images/sample-image.webp" alt="logo" />
+		<div id="newcomers"></div><img src="/images/sample-image.webp" alt="logo" />
 	</div>
 	<p />
 	<!-- <h2>复旦大学电子竞技联盟微信公众号</h2> -->
