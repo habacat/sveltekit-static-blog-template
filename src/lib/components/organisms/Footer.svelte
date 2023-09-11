@@ -9,7 +9,7 @@
 	<div class="wave">
 		<FooterWave />
 	</div>
-	<div class="content"><a href="#top"> 返回顶部 </a></div>
+	<div class="content"><a href="top"> 返回顶部 </a></div>
 	<div class="content">
 		<div class="copyright">
 			版权所有：复旦电子竞技联盟 <a
