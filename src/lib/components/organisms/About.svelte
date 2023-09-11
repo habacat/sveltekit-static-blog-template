@@ -53,7 +53,7 @@
 		<!-- </div> -->
 	</div>
 	<div class="image">
-		<div class="qrcode"></div><img src="/images/qrcode.webp" alt="logo" />
+		<name class="qrcode"></name><img src="/images/qrcode.webp" alt="logo" />
 		<p />
 		⁣⁣⁣⁣　⁣⁣⁣⁣　⁣⁣⁣
 		<name class="newcomers"></name><img src="/images/sample-image.webp" alt="logo" />
